@@ -1,11 +1,113 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>CI/CD Demo</title>
+  <meta charset="UTF-8">
+  <title>AWS DevOps CI/CD | Static Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>CI/CD Pipeline Working 🚀</h1>
-  <p>Deployed using AWS CodePipeline</p>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="logo">AWS DevOps 🚀</div>
+    <nav>
+      <a href="#overview">Overview</a>
+      <a href="#pipeline">Pipeline</a>
+      <a href="#features">Features</a>
+      <a href="#deploy">Deploy</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-glass">
+      <h1>CI/CD Pipeline Deployment Successful</h1>
+      <p>Fully automated static website delivery using AWS DevOps services</p>
+      <div class="badges">
+        <span class="badge success">✔ Build Passed</span>
+        <span class="badge success">✔ Deployed</span>
+        <span class="badge info">AWS CodePipeline</span>
+      </div>
+      <button>Explore Architecture</button>
+    </div>
+  </section>
+
+  <!-- Overview -->
+  <section id="overview" class="section">
+    <h2>Project Overview</h2>
+    <p>
+      This static website demonstrates a real-world AWS DevOps CI/CD workflow.
+      Every code update is automatically built, tested, and deployed without
+      manual intervention.
+    </p>
+  </section>
+
+  <!-- Pipeline Timeline -->
+  <section id="pipeline" class="section light">
+    <h2>CI/CD Pipeline Flow</h2>
+    <div class="timeline">
+      <div class="step">
+        <span>1</span>
+        <h3>Source</h3>
+        <p>GitHub Repository</p>
+      </div>
+      <div class="step">
+        <span>2</span>
+        <h3>Build</h3>
+        <p>AWS CodeBuild</p>
+      </div>
+      <div class="step">
+        <span>3</span>
+        <h3>Pipeline</h3>
+        <p>AWS CodePipeline</p>
+      </div>
+      <div class="step">
+        <span>4</span>
+        <h3>Deploy</h3>
+        <p>S3 / EC2</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="section">
+    <h2>Why AWS DevOps?</h2>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <h3>⚡ Faster Delivery</h3>
+        <p>Automated pipelines reduce deployment time.</p>
+      </div>
+      <div class="feature-card">
+        <h3>🔒 Reliable</h3>
+        <p>Consistent builds with zero human error.</p>
+      </div>
+      <div class="feature-card">
+        <h3>📈 Scalable</h3>
+        <p>Works for startups to enterprise systems.</p>
+      </div>
+      <div class="feature-card">
+        <h3>💰 Cost Efficient</h3>
+        <p>Pay only for what you use on AWS.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Deployment Section -->
+  <section id="deploy" class="section light">
+    <h2>Deployment Type</h2>
+    <div class="deploy-box">
+      <p><strong>Website Type:</strong> Static Website</p>
+      <p><strong>Hosting:</strong> Amazon S3 / EC2</p>
+      <p><strong>CI/CD:</strong> AWS CodePipeline</p>
+      <p><strong>Status:</strong> <span class="status-live">LIVE</span></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 AWS DevOps Static Website | Built by Neha Shinde</p>
+  </footer>
+
 </body>
 </html>
