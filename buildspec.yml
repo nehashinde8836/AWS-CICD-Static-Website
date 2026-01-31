@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Installing dependencies (none required for static site)"
+  build:
+    commands:
+      - echo "Build started"
+      - echo "Build completed successfully"
+
+artifacts:
+  files:
+    - '**/*'
