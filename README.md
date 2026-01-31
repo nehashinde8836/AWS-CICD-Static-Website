@@ -83,7 +83,7 @@ Amazon S3 (Static Website Hosting)
 ---
 
 
-## 9️⃣ Final Outcome
+## 7️⃣ Final Outcome
 
 * CI/CD pipeline works successfully.
 * Any change pushed to the repository is **automatically deployed**.
@@ -92,7 +92,7 @@ Amazon S3 (Static Website Hosting)
 
 ---
 
-## 🔟 Key Learnings
+## 8️⃣ Key Learnings
 
 * Understanding CI/CD concepts in real-world DevOps
 * Working with AWS CodePipeline and CodeBuild
@@ -105,30 +105,17 @@ Amazon S3 (Static Website Hosting)
 
 ---
 
-## 1️⃣2️⃣ Conclusion
+## 9️⃣ Conclusion
 
 This project successfully demonstrates a **real-world DevOps CI/CD workflow** using AWS.
 It shows how automation improves deployment speed, reduces errors, and ensures reliable delivery of applications.
 
 ---
 
-## 1️⃣3️⃣ Author
+## 🔟 Author
 
 **Neha Shinde**
 GitHub: [https://github.com/nehashinde8836](https://github.com/nehashinde8836)
 
 ---
 
-### 💡 Pro Tip (For GitHub Stars ⭐)
-
-Add **topics** in GitHub:
-
-```
-AWS, DevOps, CI-CD, CodePipeline, CodeBuild, S3, Static-Website
-```
-
----
-
-
-
-Just tell me 👍
